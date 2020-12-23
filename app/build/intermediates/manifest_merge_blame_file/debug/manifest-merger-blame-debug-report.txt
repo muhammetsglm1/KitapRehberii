@@ -1,0 +1,371 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ates.bookguide"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:8:22-63
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:24:5-68
+15-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:26:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:10:5-60:19
+20        android:name="com.ates.bookguide.App"
+20-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:11:9-46
+21        android:allowBackup="true"
+21-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:12:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\a84288620278c3507b6e22e3afc1a443\core-1.3.1\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:13:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:14:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:15:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:16:9-35
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:17:9-40
+29        <activity android:name="com.ates.bookguide.LoadingScreenActivity" >
+29-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:18:9-24:20
+29-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:18:19-74
+30            <intent-filter>
+30-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:19:13-23:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:20:17-69
+31-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:20:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:22:17-77
+33-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:22:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:25:9-27:78
+37            android:name="com.ates.bookguide.ForgotPasswordActivity"
+37-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:26:13-69
+38            android:parentActivityName="com.ates.bookguide.SignInActivity" />
+38-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:27:13-75
+39
+40        <service
+40-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:29:9-35:19
+41            android:name="com.ates.bookguide.MyFireBaseMessagingService"
+41-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:30:13-73
+42            android:exported="false" >
+42-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:31:13-37
+43            <intent-filter>
+43-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:32:13-34:29
+44                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+44-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:33:17-78
+44-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:33:25-75
+45            </intent-filter>
+46        </service>
+47
+48        <activity
+48-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:37:9-39:80
+49            android:name="com.ates.bookguide.GetAllBooksActivity"
+49-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:38:13-66
+50            android:parentActivityName="com.ates.bookguide.HomePageActivity" />
+50-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:39:13-77
+51        <activity
+51-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:40:9-42:80
+52            android:name="com.ates.bookguide.AddBookActivity"
+52-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:41:13-62
+53            android:parentActivityName="com.ates.bookguide.HomePageActivity" />
+53-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:42:13-77
+54        <activity android:name="com.ates.bookguide.HomePageActivity" />
+54-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:43:9-72
+54-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:43:19-69
+55        <activity
+55-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:44:9-46:76
+56            android:name="com.ates.bookguide.SignInActivity"
+56-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:45:13-61
+57            android:parentActivityName="com.ates.bookguide.MainActivity" />
+57-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:46:13-73
+58        <activity
+58-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:47:9-49:76
+59            android:name="com.ates.bookguide.SignUpActivity"
+59-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:48:13-61
+60            android:parentActivityName="com.ates.bookguide.MainActivity" />
+60-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:49:13-73
+61        <activity android:name="com.ates.bookguide.MainActivity" >
+61-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:50:9-52:20
+61-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:50:19-65
+62        </activity>
+63
+64        <meta-data
+64-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:54:9-56:50
+65            android:name="com.google.firebase.messaging.default_notification_icon"
+65-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:55:13-83
+66            android:value="test_sound_channel" />
+66-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:56:13-47
+67        <meta-data
+67-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:57:9-59:57
+68            android:name="preloaded_fonts"
+68-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:58:13-43
+69            android:resource="@array/preloaded_fonts" />
+69-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:59:13-54
+70
+71        <provider
+71-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f05138dc4aad7866b30ee7dc58456a21\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+72            android:name="com.squareup.picasso.PicassoProvider"
+72-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f05138dc4aad7866b30ee7dc58456a21\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+73            android:authorities="com.ates.bookguide.com.squareup.picasso"
+73-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f05138dc4aad7866b30ee7dc58456a21\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+74            android:exported="false" />
+74-->[com.squareup.picasso:picasso:2.71828] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f05138dc4aad7866b30ee7dc58456a21\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+75
+76        <activity
+76-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:24:9-31:50
+77            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+77-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:25:13-85
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:26:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:27:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:28:13-44
+81            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+81-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:29:13-102
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:30:13-72
+83
+84        <service
+84-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:33:9-39:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:34:13-84
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f9b0b32ddce079d50668c83080ab1a0c\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:35:13-37
+88            <meta-data
+88-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:36:13-38:85
+89                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+89-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:37:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\7edd4c6836e5a9ec260595632729cb53\firebase-auth-19.3.2\AndroidManifest.xml:38:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-firestore:21.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3b8b34d91d3a1d2611c7490d83b9ebe8\jetified-firebase-firestore-21.5.0\AndroidManifest.xml:20:13-22:85
+92                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+92-->[com.google.firebase:firebase-firestore:21.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3b8b34d91d3a1d2611c7490d83b9ebe8\jetified-firebase-firestore-21.5.0\AndroidManifest.xml:21:17-111
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-firestore:21.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3b8b34d91d3a1d2611c7490d83b9ebe8\jetified-firebase-firestore-21.5.0\AndroidManifest.xml:22:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\b8fb319c908464065fc653e32e8d080c\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+95                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+95-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\b8fb319c908464065fc653e32e8d080c\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\b8fb319c908464065fc653e32e8d080c\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\b0f43d18cf6f609e5ddee1bf1767fb32\firebase-crashlytics-17.2.1\AndroidManifest.xml:16:13-18:85
+98                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+98-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\b0f43d18cf6f609e5ddee1bf1767fb32\firebase-crashlytics-17.2.1\AndroidManifest.xml:17:17-115
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\b0f43d18cf6f609e5ddee1bf1767fb32\firebase-crashlytics-17.2.1\AndroidManifest.xml:18:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\85be43611fcdad9432c043085e75d6c7\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:39:13-41:85
+101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+101-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\85be43611fcdad9432c043085e75d6c7\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:40:17-119
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\85be43611fcdad9432c043085e75d6c7\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:41:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:32:13-34:85
+104                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+104-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:33:17-96
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:34:17-82
+106            <meta-data
+106-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f29e5fb1ca7e8bae8b9957165f465e7c\play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+107                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+107-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f29e5fb1ca7e8bae8b9957165f465e7c\play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f29e5fb1ca7e8bae8b9957165f465e7c\play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\97efa2b03d9ab406c0cc6c66b7ce5004\firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+110                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+110-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\97efa2b03d9ab406c0cc6c66b7ce5004\firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\97efa2b03d9ab406c0cc6c66b7ce5004\firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3d04a7fa06cdea5d5884853190c1d64e\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+113                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+113-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3d04a7fa06cdea5d5884853190c1d64e\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3d04a7fa06cdea5d5884853190c1d64e\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+115        </service>
+116        <!--
+117             FirebaseMessagingService performs security checks at runtime,
+118             but set to not exported to explicitly avoid allowing another app to call it.
+119        -->
+120        <service
+120-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\85be43611fcdad9432c043085e75d6c7\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:28:9-35:19
+121            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+121-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\85be43611fcdad9432c043085e75d6c7\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:29:13-82
+122            android:directBootAware="true"
+122-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\85be43611fcdad9432c043085e75d6c7\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:30:13-43
+123            android:exported="false" >
+123-->[com.google.firebase:firebase-messaging:20.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\85be43611fcdad9432c043085e75d6c7\jetified-firebase-messaging-20.2.4\AndroidManifest.xml:31:13-37
+124            <intent-filter android:priority="-500" >
+124-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:32:13-34:29
+125                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+125-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:33:17-78
+125-->C:\Users\Muhendis\Desktop\bookguide-project\app\src\main\AndroidManifest.xml:33:25-75
+126            </intent-filter>
+127        </service>
+128
+129        <activity
+129-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+130            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+130-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+131            android:excludeFromRecents="true"
+131-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+134        <!--
+135            Service handling Google Sign-In user revocation. For apps that do not integrate with
+136            Google Sign-In, this service will never be started.
+137        -->
+138        <service
+138-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+139            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+139-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+140            android:exported="true"
+140-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+141            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+141-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+142            android:visibleToInstantApps="true" />
+142-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\fbd5dd34b1fb74f47d7da33fc6c1f159\play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+143
+144        <receiver
+144-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:37:9-44:20
+145            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+145-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:38:13-78
+146            android:exported="true"
+146-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:39:13-36
+147            android:permission="com.google.android.c2dm.permission.SEND" >
+147-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:40:13-73
+148            <intent-filter>
+148-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:41:13-43:29
+149                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+149-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:42:17-81
+149-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\3954a89bdfde0ce02aa6b9a4b2d2a1d9\firebase-iid-20.2.3\AndroidManifest.xml:42:25-78
+150            </intent-filter>
+151        </receiver>
+152
+153        <activity
+153-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\062e76f2262ea75a3f6dd2139ee18186\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+154-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\062e76f2262ea75a3f6dd2139ee18186\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\062e76f2262ea75a3f6dd2139ee18186\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\062e76f2262ea75a3f6dd2139ee18186\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+157
+158        <provider
+158-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f9b0b32ddce079d50668c83080ab1a0c\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f9b0b32ddce079d50668c83080ab1a0c\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+160            android:authorities="com.ates.bookguide.firebaseinitprovider"
+160-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f9b0b32ddce079d50668c83080ab1a0c\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f9b0b32ddce079d50668c83080ab1a0c\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+162            android:exported="false"
+162-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f9b0b32ddce079d50668c83080ab1a0c\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+163            android:initOrder="100" />
+163-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\f9b0b32ddce079d50668c83080ab1a0c\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+164
+165        <receiver
+165-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+166            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+166-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+167            android:enabled="true"
+167-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+168            android:exported="false" >
+168-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+169        </receiver>
+170
+171        <service
+171-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+172            android:name="com.google.android.gms.measurement.AppMeasurementService"
+172-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+173            android:enabled="true"
+173-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+174            android:exported="false" />
+174-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+175        <service
+175-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+176            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+176-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+177            android:enabled="true"
+177-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+179            android:permission="android.permission.BIND_JOB_SERVICE" />
+179-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\0901a5c925346a8477be07ee40255bad\play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+180
+181        <meta-data
+181-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\d3d403152e155cd0fc8afa23f957d77a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+182            android:name="com.google.android.gms.version"
+182-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\d3d403152e155cd0fc8afa23f957d77a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+183            android:value="@integer/google_play_services_version" />
+183-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\d3d403152e155cd0fc8afa23f957d77a\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+184
+185        <service
+185-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\29006cc475d95f1cf7c937feaf99580b\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:29:9-35:19
+186            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+186-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\29006cc475d95f1cf7c937feaf99580b\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:30:13-103
+187            android:exported="false" >
+187-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\29006cc475d95f1cf7c937feaf99580b\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:31:13-37
+188            <meta-data
+188-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\29006cc475d95f1cf7c937feaf99580b\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:32:13-34:39
+189                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+189-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\29006cc475d95f1cf7c937feaf99580b\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:33:17-94
+190                android:value="cct" />
+190-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\29006cc475d95f1cf7c937feaf99580b\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:34:17-36
+191        </service>
+192        <service
+192-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\351ceba7e5d3f64f878fbc63f1a65587\jetified-transport-runtime-2.2.4\AndroidManifest.xml:26:9-30:19
+193            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+193-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\351ceba7e5d3f64f878fbc63f1a65587\jetified-transport-runtime-2.2.4\AndroidManifest.xml:27:13-117
+194            android:exported="false"
+194-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\351ceba7e5d3f64f878fbc63f1a65587\jetified-transport-runtime-2.2.4\AndroidManifest.xml:28:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" >
+195-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\351ceba7e5d3f64f878fbc63f1a65587\jetified-transport-runtime-2.2.4\AndroidManifest.xml:29:13-69
+196        </service>
+197
+198        <receiver
+198-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\351ceba7e5d3f64f878fbc63f1a65587\jetified-transport-runtime-2.2.4\AndroidManifest.xml:32:9-34:40
+199            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+199-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\351ceba7e5d3f64f878fbc63f1a65587\jetified-transport-runtime-2.2.4\AndroidManifest.xml:33:13-132
+200            android:exported="false" />
+200-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Muhendis\.gradle\caches\transforms-2\files-2.1\351ceba7e5d3f64f878fbc63f1a65587\jetified-transport-runtime-2.2.4\AndroidManifest.xml:34:13-37
+201    </application>
+202
+203</manifest>
